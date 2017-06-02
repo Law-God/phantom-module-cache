@@ -31,7 +31,8 @@ public class MemcachedCacheTest {
 
     @Test
     public void test(){
-        memcachedCache.put("str","string1",30);
+        //memcachedCache.put("str","string1",30);
+        //memcachedCache.put("","string1",30);
 //        Cache.ValueWrapper wrapper = memcachedCache.get("str1");
 //        System.out.println(wrapper.get());
 //        System.out.println(memcachedCache.get("str1",String.class));
